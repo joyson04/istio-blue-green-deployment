@@ -35,12 +35,12 @@
     
     3.  kubectl get pods 
         NAME                          READY   STATUS    RESTARTS   AGE
-        nginx-app1-7fb695b558-2jg7b   2/2     Running   0          7m2s
-        nginx-app1-7fb695b558-2wldm   2/2     Running   0          7m2s
-        nginx-app1-7fb695b558-7kzwl   2/2     Running   0          7m2s
-        nginx-app2-564f858694-g6h2z   2/2     Running   0          7m2s
-        nginx-app2-564f858694-jn4g7   2/2     Running   0          7m2s
-        nginx-app2-564f858694-mdrxb   2/2     Running   0          7m1s
+        aravindh05/blue-deployment-7fb695b558-2jg7b   2/2     Running   0          7m2s
+        aravindh05/blue-deployment-7fb695b558-2wldm   2/2     Running   0          7m2s
+        aravindh05/blue-deployment-7fb695b558-7kzwl   2/2     Running   0          7m2s
+        aravindh05/test-green-564f858694-g6h2z        2/2     Running   0          7m2s
+        aravindh05/test-green-564f858694-jn4g7        2/2     Running   0          7m2s
+        aravindh05/test-green-564f858694-mdrxb        2/2     Running   0          7m1s
         
         
     4.  kubectl get svc
